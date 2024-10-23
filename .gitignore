@@ -1,4 +1,10 @@
 /.DS_Store
 node_modules
 cover.json
+job.json
+resume.json
+resume.html
 submitted_covers
+submitted_resumes
+submitted_jobs
+.env

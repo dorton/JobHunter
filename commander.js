@@ -1,6 +1,6 @@
-const { exec } = require('child_process');
+import { exec } from 'child_process';
 
-const executeCommand = (cmd, successCallback, errorCallback) => {
+export const executeCommand = (cmd, successCallback, errorCallback) => {
   exec(cmd, (error, stdout, stderr) => {
     if (error) {
       if (errorCallback) {
@@ -19,5 +19,3 @@ const executeCommand = (cmd, successCallback, errorCallback) => {
     }
   });
 };
-
-module.exports = { executeCommand };

@@ -1,13 +1,19 @@
 {
   "scripts": {
     "cover": "nodemon cover.js",
+    "cover_static": "node cover.js&",
     "printcover": "node printcover.js",
-    "exportresume": "resume export resume_2024.html -t ./my-resume-theme",
-    "printresume": "/Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome --headless --disable-gpu --print-to-pdf=./resume_2024.pdf --no-pdf-header-footer  file:///Users/briandorton/githubprojects/portfolio/resume_2024.html && cp ./resume_2024.pdf /Users/briandorton/Dropbox/job-hunt-2024/Brian-Dorton-Resume.pdf",
-    "buildresume": "npm run exportresume && npm run printresume"
+    "buildcover": "npm run cover_static && npm run printcover && lsof -t -i:3000 | xargs kill",
+    "exportresume": "resume export resume.html -t ./my-resume-theme",
+    "printresume": "node printresume.js",
+    "buildresume": "npm run exportresume && npm run printresume",
+    "build": "npm run buildcover & npm run buildresume",
+    "hubspot": "node jobber.js"
   },
   "dependencies": {
+    "@hubspot/api-client": "^12.0.1",
     "@jsonresume/jsonresume-theme-professional": "^1.0.16",
+    "dotenv": "^16.4.5",
     "express": "^4.21.0",
     "html-pdf-chrome": "^0.8.4",
     "jsonresume-theme-elegant": "^1.16.1",
@@ -22,5 +28,6 @@
     "jsonresume-theme-rickosborne": "^2022.9.16-T1450",
     "reload": "^3.3.0",
     "resumed": "^4.0.0"
-  }
+  },
+  "type": "module"
 }

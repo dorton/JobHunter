@@ -1,10 +1,13 @@
-const express = require('express')
-const app = express()
-const port = 3000
-const fs = require('fs');
-const path = require('path');
-const reload = require('reload')
+import express from 'express'
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import reload from 'reload'
 
+const app = express()
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const port = 3000
 const coverCSS = fs.readFileSync(path.join(__dirname, 'cover.css'), { encoding: 'utf8' });
 const data = JSON.parse(fs.readFileSync(path.join(__dirname, 'cover.json'), { encoding: 'utf8' }));
 
@@ -76,13 +79,15 @@ function render() {
         </div>
 
         <div class="body">
-            <p>I enthusiastically submit my application for the  ${data.department ? `${data.department}, ` : ''} ${data.position} position at ${data.company}. ${data.p1}</p>
+            <p>I enthusiastically submit my application for the  ${data.department ? `${data.department}, ` : ''} ${data.position} position at ${data.company}. ${data.opening_paragraph}</p>
 
-            <p>${data.p2}</p>
+            <p>${data.current_role}</p>
 
-            <p>${data.because} ${data.why}</p>
+            <p>${data.why_you_should_hire_me} </p>
+            
+            <p> ${data.additional_reasons}</p>
 
-            <p>${data.closing}</p>
+            <p>${data.closing_paragraph}</p>
         </div>
 
         <div class="closing">

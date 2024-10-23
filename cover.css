@@ -1,69 +1,79 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
 }
 
 .letter {
-    width: 8.5in;
-    max-width: 800px;
-    margin: 50px auto;
-    padding: 40px;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    border: 1px solid #ccc;
+  width: 8.5in;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
 }
 
-.header, .recipient, .greeting, .body, .closing {
-    margin-bottom: 20px;
+.header,
+.recipient,
+.greeting,
+.body,
+.closing {
+  margin-bottom: 20px;
 }
 
-.header a, .closing a {
-    color: black;
-    text-decoration: none;
+.header a,
+.closing a {
+  color: black;
+  text-decoration: none;
 }
 
 .recipient-date-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
-.header p, .closing p, .header .links-wrapper {
-    margin: 0;
-    line-height: 1.6;
+.header p,
+.closing p,
+.header .links-wrapper {
+  margin: 0;
+  line-height: 1.6;
 }
 
-.date {}
+.date {
+}
 
 .body p {
-    text-align: justify;
-    line-height: 1.8;
+  text-align: justify;
+  line-height: 1.8;
 }
 
 strong {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 #no-show {
-    display: none;
+  display: none;
 }
 
 @media print {
-    body {
-        background-color: white;
-    }
+  body {
+    background-color: white;
+  }
 
-    .letter {
-        box-shadow: none;
-        border: none;
-    }
-    .body p {
-        text-align: justify;
-        line-height: 1.6;
-    }
-    #no-print {
-        display: none;
-    }
+  .letter {
+    box-shadow: none;
+    border: none;
+  }
+  .body p {
+    text-align: justify;
+    line-height: 1.6;
+  }
+  #no-print {
+    display: none;
+  }
+  p {
+  }
 }

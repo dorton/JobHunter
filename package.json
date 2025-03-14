@@ -7,6 +7,7 @@
     "exportresume": "resume export resume.html -t ./my-resume-theme",
     "printresume": "node printresume.js",
     "buildresume": "npm run exportresume && npm run printresume",
+    "openresume": "open resume.html",
     "build": "npm run buildcover & npm run buildresume",
     "hubspot": "node jobber.js"
   },
@@ -26,6 +27,7 @@
     "jsonresume-theme-paper-plus-plus": "^0.5.1",
     "jsonresume-theme-professional": "^1.1.0",
     "jsonresume-theme-rickosborne": "^2022.9.16-T1450",
+    "nodemon": "^3.1.9",
     "reload": "^3.3.0",
     "resumed": "^4.0.0"
   },

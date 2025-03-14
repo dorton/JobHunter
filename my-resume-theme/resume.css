@@ -474,6 +474,7 @@ a:hover {
     font-size: 70%;
   }
 
+  #left > section.work-list .work-item,
   #left > section.education-list,
   #left > section.education-list *,
   #left > section.reference-list,

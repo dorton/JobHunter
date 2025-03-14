@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/temp" />
+      <excludeFolder url="file://$MODULE_DIR$/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/submitted_resumes/AmazeSoftwareInc.-Senior-Software-Engineer-Engineering-Department" />
+      <excludeFolder url="file://$MODULE_DIR$/submitted_resumes/Atlassian-Site-Reliability-Engineer-" />
+      <excludeFolder url="file://$MODULE_DIR$/submitted_resumes/BeamBenefits-Software-Engineer-" />
+      <excludeFolder url="file://$MODULE_DIR$/submitted_resumes/BizzyCar,Inc.-Back-End-Engineer-Engineering" />
+      <excludeFolder url="file://$MODULE_DIR$/submitted_resumes/Calendly-Engineering-Manager-" />
+      <excludeFolder url="file://$MODULE_DIR$/submitted_resumes/Calendly-Full-Stack-Engineer-III-" />
+      <excludeFolder url="file://$MODULE_DIR$/submitted_resumes/Dealerware-Backend-Engineer-Ruby-On-Rails-" />
+      <excludeFolder url="file://$MODULE_DIR$/submitted_resumes/Discord-Software-Engineer-Experimentation-Platform" />
+      <excludeFolder url="file://$MODULE_DIR$/submitted_resumes/Doximity-Software-Engineer-Advertising-Platform" />
+      <excludeFolder url="file://$MODULE_DIR$/submitted_resumes/Everlance-Senior-Fullstack-Engineer-Rails-React-" />
+      <excludeFolder url="file://$MODULE_DIR$/submitted_resumes/FIGS-Software-Development-Engineer-II,-Frontend-" />
+      <excludeFolder url="file://$MODULE_DIR$/submitted_resumes/Figma-Software-Engineer-Internal-Tools" />
+      <excludeFolder url="file://$MODULE_DIR$/submitted_resumes/FlockSafety-Software-Engineer-Detectives-and-Dispatch" />
+      <excludeFolder url="file://$MODULE_DIR$/submitted_resumes/FuelTalent-Ruby-on-Rails-Developer-" />
+      <excludeFolder url="file://$MODULE_DIR$/submitted_resumes/GitLab-Intermediate-Backend-Engineer-Plan-Stage" />
+      <excludeFolder url="file://$MODULE_DIR$/submitted_resumes/HONK-Software-Engineer---Full-Stack-" />
+      <excludeFolder url="file://$MODULE_DIR$/submitted_resumes/HashiCorp-Engineer-II---Frontend-Vault-Team" />
+      <excludeFolder url="file://$MODULE_DIR$/submitted_resumes/HumanSignal-Senior-Frontend-Engineer-" />
+      <excludeFolder url="file://$MODULE_DIR$/submitted_resumes/IncludedHealth-Backend-Engineer-I-Customer-Experience" />
+      <excludeFolder url="file://$MODULE_DIR$/submitted_resumes/Kit-Senior-Software-Engineer-BCDC" />
+      <excludeFolder url="file://$MODULE_DIR$/submitted_resumes/Lattice-Senior-Software-Engineer" />
+      <excludeFolder url="file://$MODULE_DIR$/submitted_resumes/Maximus-Full-Stack-Engineer-II-" />
+      <excludeFolder url="file://$MODULE_DIR$/submitted_resumes/MuonSpace-Ground-Software-Engineer" />
+      <excludeFolder url="file://$MODULE_DIR$/submitted_resumes/OscarHealth-Engineer-II---SRE-Site-Reliability-Engineering" />
+      <excludeFolder url="file://$MODULE_DIR$/submitted_resumes/Outliant-Full-Stack-Engineer-II-" />
+      <excludeFolder url="file://$MODULE_DIR$/submitted_resumes/Packback-Full-Stack-Software-Engineer-" />
+      <excludeFolder url="file://$MODULE_DIR$/submitted_resumes/Reddit-Engineering-Manager-Web-Platform-Team" />
+      <excludeFolder url="file://$MODULE_DIR$/submitted_resumes/Saks-Senior-Software-Engineer-Web-Platform" />
+      <excludeFolder url="file://$MODULE_DIR$/submitted_resumes/Snapsheet-Senior-Software-Engineer-" />
+      <excludeFolder url="file://$MODULE_DIR$/submitted_resumes/Solv-Software-Engineer---Full-Stack-" />
+      <excludeFolder url="file://$MODULE_DIR$/submitted_resumes/SpringHealth-Senior-Software-Engineer-I-Customer-Experience" />
+      <excludeFolder url="file://$MODULE_DIR$/submitted_resumes/Thanx-Intermediate-Software-Developer-" />
+      <excludeFolder url="file://$MODULE_DIR$/submitted_resumes/TheWanderlustGroup-Senior-Software-Engineer-" />
+      <excludeFolder url="file://$MODULE_DIR$/submitted_resumes/Upstart-Software-Engineer-Home-Lending-Growth" />
+      <excludeFolder url="file://$MODULE_DIR$/submitted_resumes/UserInterviews-Software-Engineer-" />
+      <excludeFolder url="file://$MODULE_DIR$/submitted_resumes/Vanta-Software-Engineer,-Fullstack-" />
+      <excludeFolder url="file://$MODULE_DIR$/submitted_resumes/Verticalmove,Inc-Senior-Fullstack-Ruby-on-Rails-Engineer-" />
+      <excludeFolder url="file://$MODULE_DIR$/submitted_resumes/Vimeo-Senior-Software-Engineer-OTT" />
+      <excludeFolder url="file://$MODULE_DIR$/submitted_resumes/VirtaHealth-Software-Engineer,-Backend-" />
+      <excludeFolder url="file://$MODULE_DIR$/submitted_resumes/Zeitview-Full-Stack-Engineer-" />
+      <excludeFolder url="file://$MODULE_DIR$/submitted_resumes/json" />
+      <excludeFolder url="file://$MODULE_DIR$/submitted_resumes/pdf" />
+      <excludeFolder url="file://$MODULE_DIR$/job-app/src/components" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

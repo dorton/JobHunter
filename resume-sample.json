@@ -1,0 +1,57 @@
+{
+  "basics": {
+    "name": "",
+    "label": "",
+    "picture": "",
+    "image": "",
+    "email": "",
+    "phone": "",
+    "url": "",
+    "summary": "",
+    "location": {
+      "city": "",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn, Github, etc",
+        "username": "",
+        "url": ""
+      }
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "level": "Junior, Mid, Senior, Lead, etc",
+      "keywords": []
+    }
+  ],
+  "work": [
+    {
+      "name": "",
+      "company": "",
+      "position": "",
+      "website": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "",
+      "area": "",
+      "studyType": "",
+      "startDate": "",
+      "endDate": ""
+    }
+  ],
+  "references": [
+    {
+      "name": "",
+      "reference": ""
+    }
+  ]
+}

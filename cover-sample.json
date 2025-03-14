@@ -1,24 +1,24 @@
 {
-    "me": {
-        "name": "",
-        "email": "",
-        "phone": "",
-        "address": "",
-        "city": "",
-        "links": {
-            "linkedin": "",
-            "github": ""
-        }
-    },
-    "company": "",
-    "companyAddress": "",
-    "companyCity": "",
-    "date": "",
-    "department": "",
-    "position": "",
-    "p1": "",
-    "p2": "",
-    "because": "",
-    "why": "",
-    "closing": ""
+  "me": {
+    "name": "",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "city": "",
+    "links": {
+      "linkedin": "",
+      "github": ""
+    }
+  },
+  "company": "",
+  "companyAddress": "",
+  "companyCity": "",
+  "date": "",
+  "department": "",
+  "position": "",
+  "opening_paragraph": "",
+  "current_role": "",
+  "why_you_should_hire_me": "",
+  "additional_reasons": "",
+  "closing_paragraph": ""
 }

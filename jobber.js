@@ -10,7 +10,7 @@ const __dirname = path.dirname(__filename);
 
 const jobJson = JSON.parse(fs.readFileSync(path.join(__dirname, 'job.json'), { encoding: 'utf8' }));
 
-const hubspotClient = new hubspot.Client({ accessToken: process.env.accessToken })
+const hubspotClient = new hubspot.Client({ accessToken: process.env.HUBSPOT_ACCESS_TOKEN })
 
 const companyName = jobJson.company
 const companyDomain = jobJson.domain
@@ -24,8 +24,8 @@ const application_url = jobJson.application_url
 const properties = {
   "dealname": `${jobJson.company} - ${jobJson.position}`,
   "description": aboutJob,
-  "pipeline": process.env.hubspotPiplineId,
-  "dealstage": process.env.dealStageId,
+  "pipeline": process.env.HUBSPOT_PIPELINE_ID,
+  "dealstage": process.env.HUBSPOT_DEAL_STAGE_ID,
   "responsibilities": responsibilities,
   "requirements": requirements,
   "preferred": preferred,
@@ -63,7 +63,7 @@ const createCompany = async () => {
     "domain": companyDomain,
     "unique_domain": companyDomain,
     "name": companyName,
-    "hubspot_owner_id": process.env.ownerId
+    "hubspot_owner_id": process.env.HUBSPOT_OWNER_ID
   };
   // const SimplePublicObjectInputForCreate = { associations: [], objectWriteTraceId: "", properties };
 

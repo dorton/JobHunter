@@ -79,7 +79,7 @@ function render() {
         </div>
 
         <div class="body">
-            <p>I enthusiastically submit my application for the  ${data.department ? `${data.department}, ` : ''} ${data.position} position at ${data.company}. ${data.opening_paragraph}</p>
+            <p>${data.opening_paragraph}</p>
 
             <p>${data.current_role}</p>
 

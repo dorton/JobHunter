@@ -31,6 +31,7 @@ SUBMITTED_RESUMES=your_submitted_resumes_folder
 SUBMITTED_JOBS=your_submitted_jobs_folder
 CHROME_PATH=path_to_chrome_executable
 ```
+4. Rename cover-sample.json to cover.json, job-sample.json to job.json and resume-sample.json to resume.json and add your information.
 ## Usage
 Build the resume and cover letter based off of the JSON files
 
